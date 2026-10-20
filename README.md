@@ -54,6 +54,14 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
+## Deploy to GitHub Pages
+
+The workflow in `.github/workflows/deploy.yml` builds and deploys the site whenever
+changes are pushed to `master`. It can also be started manually from the Actions
+tab. In the repository settings, set **Pages** > **Build and deployment** > **Source**
+to **GitHub Actions**. The site is published at
+`https://abhiram-47.github.io/hilbert/`.
+
 ## 👀 Want to learn more?
 
 Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
